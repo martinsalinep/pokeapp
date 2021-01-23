@@ -1,5 +1,4 @@
 import React from 'react';
-import pokemonLogo from './img/pokemonLogo.png';
 import './style.css';
 
 function Navbar() {
