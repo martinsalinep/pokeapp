@@ -2,6 +2,8 @@ import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import home from './pages/home';
 import meusPokemons from './pages/meusPokemons';
+import NavBar from './components/Navbar';
+
 
 
 export default function Routes() {

@@ -1,16 +1,10 @@
 import React from 'react';
 import typeColors from '../../helpers/typeColors'
 import './style.css';
-import '../../css/bootstrap.css';
-import '../../css/bootstrap-grid.css';
-import '../../css/bootstrap-grid.min.css';
-import '../../css/bootstrap-reboot.css';
-import '../../css/bootstrap-reboot.min.css';
-import '../../css/bootstrap.min.css';
 
 function Card({ pokemon }) {
     return (
-        <div className="Card border border-3 rounded-pill">
+        <div className="Card border border-3 ">
             <div className="Card__img">
                 <img src={pokemon.sprites.front_default} alt="" />
             </div>
